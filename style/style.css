@@ -64,7 +64,7 @@ p {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background: url("/img/cover-paint.jpg");
+  background: url("../img/cover-paint.jpg") #a24343;
   background-size: cover;
   color: #fff;
 }
@@ -121,14 +121,14 @@ p {
 
 .sec-3-img {
   width: 50%;
-  background: url("/img/cover-hash.jpg") no-repeat;
+  background: url("../img/cover-hash.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .sec-8-img {
   width: 50%;
-  background: url("/img/cover-pop.jpg") no-repeat;
+  background: url("../img/cover-pop.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -280,7 +280,7 @@ p {
 
 .sec-7 .items {
   padding-top: 2rem;
-  width: 100%;
+  width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -310,7 +310,7 @@ p {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background: url("/img/house.jpg") no-repeat;
+  background: url("../img/house.jpg") no-repeat;
   background-position-y: -200%;
   background-size: 100%;
   overflow: hidden;
@@ -405,6 +405,7 @@ p {
 }
 
 footer {
+  padding-top: 2rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -412,7 +413,7 @@ footer {
   -webkit-text-decoration-style: none;
           text-decoration-style: none;
   color: white;
-  background: url("/img/footer.png");
+  background: url("../img/footer.png");
   background-size: cover;
 }
 
@@ -449,7 +450,7 @@ footer img {
 }
 
 nav {
-  height: 9vh;
+  height: 8vh;
   padding: 0 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -461,7 +462,6 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   color: #fff;
-  background-color: blanchedalmond;
 }
 
 nav ul {
@@ -602,12 +602,12 @@ nav ul a:hover {
     width: 0%;
   }
   .sec-3 {
-    background: url("/img/cover-hash.jpg") no-repeat;
+    background: url("../img/cover-hash.jpg") no-repeat;
     background-size: cover;
     background-position: 50% 50%;
   }
   .sec-8 {
-    background: url("/img/cover-pop.jpg") no-repeat;
+    background: url("../img/cover-pop.jpg") no-repeat;
     background-size: cover;
     background-position: 50% 50%;
   }
