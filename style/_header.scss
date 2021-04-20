@@ -1,0 +1,44 @@
+nav {
+	height: 9vh;
+	padding: 0 1.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	background-color: blanchedalmond;
+
+	ul {
+		display: flex;
+		justify-content: space-evenly;
+		font-size: 1rem;
+
+		li {
+			list-style: none;
+		}
+
+		li a {
+			padding: 5px;
+			text-decoration: none;
+			color: rgb(243, 243, 243);
+		}
+
+		a:hover {
+			background-color: #cecece44;
+		}
+	}
+}
+
+.menu {
+	width: 30rem;
+}
+
+.hamburger {
+	display: none;
+
+	span {
+		width: 25px;
+		height: 2px;
+		background-color: white;
+		transition: all 200ms ease;
+	}
+}
