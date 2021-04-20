@@ -34,7 +34,7 @@ p {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	background: url("/img/cover-paint.jpg");
+	background: url("img/cover-paint.jpg");
 	background-size: cover;
 	color: #fff;
 
@@ -76,14 +76,14 @@ p {
 
 .sec-3-img {
 	width: 50%;
-	background: url('/img/cover-hash.jpg') no-repeat;
+	background: url('img/cover-hash.jpg') no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 
 .sec-8-img {
 	width: 50%;
-	background: url('/img/cover-pop.jpg') no-repeat;
+	background: url('img/cover-pop.jpg') no-repeat;
 	background-size: cover;
 	background-position: center;
 }
@@ -208,7 +208,7 @@ p {
 			display: flex;
 			flex-direction: column;
 			justify-content: flex-end;
-			background: url('/img/house.jpg') no-repeat;
+			background: url('img/house.jpg') no-repeat;
 			background-position-y: -200%;
 			background-size: 100%;
 			overflow: hidden;
@@ -282,7 +282,7 @@ footer {
 	flex-direction: column;
 	text-decoration-style: none;
 	color: white;
-	background: url("/img/footer.png");
+	background: url("img/footer.png");
 	background-size: cover;
 
 	span {
